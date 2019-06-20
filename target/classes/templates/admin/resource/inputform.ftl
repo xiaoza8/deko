@@ -40,19 +40,19 @@
                         <h5>编辑</h5>
                     </div>
                     <div class="ibox-content">
-                        <form class="form-horizontal m-t" id="frm" method="post" action="${ctx!}/admin/resource/edit">
-                        	<input type="hidden" id="id" name="id" value="${resource.id}">
+                        <form class="form-horizontal m-t" id="frm" method="post" action="${ctx!}/admin/resource/editnewinput">
+                        	<input type="hidden" id="id" name="id" value="${addedResource.id}">
 
                             <div class="form-group">
                                 <label class="col-sm-3 control-label">库存名称：</label>
                                 <div class="col-sm-8">
-                                    <input id="name" name="name" class="form-control" type="text" value="${resource.name}">
+                                    <input id="name" name="name" class="form-control" type="text" value="${addedResource.name}">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-sm-3 control-label">单价：</label>
                                 <div class="col-sm-8">
-                                    <input id="price" name="price" class="form-control" type="text" value="${resource.price}">
+                                    <input id="price" name="price" class="form-control" type="text" value="${addedResource.price}">
                                 </div>
                             </div>
                             <div class="form-group">
@@ -67,9 +67,9 @@
                             </div>
 
                             <div class="form-group">
-                                <label class="col-sm-3 control-label">本次增加数量：</label>
+                                <label class="col-sm-3 control-label">本次出库数量：</label>
                                 <div class="col-sm-8">
-                                    <input id="num" name="num" class="form-control" value="${resource.num}" placeholder="目录：1，菜单：2，按钮：3">
+                                    <input id="num" name="num" class="form-control" value="${addedResource.num}" placeholder="填入数字">
                                 </div>
                             </div>
 
@@ -78,15 +78,15 @@
                                 <label class="col-sm-3 control-label">状态：</label>
                                 <div class="col-sm-8">
                                 	<select name="isHide" class="form-control">
-                                		<option value="0" <#if resource.locked == 0>selected="selected"</#if>>显示</option>
-                                		<option value="1" <#if resource.locked == 1>selected="selected"</#if>>隐藏</option>
+                                		<option value="0" <#if resource.locked == 0>selected="selected"</#if>>待审核</option>
+                                		<option value="1" <#if resource.locked == 1>selected="selected"</#if>>已批准</option>
                                 	</select>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-sm-3 control-label">描述：</label>
                                 <div class="col-sm-8">
-                                    <input id="description" name="description" class="form-control" value="${resource.description}">
+                                    <input id="description" name="description" class="form-control" value="${addedResource.description}">
                                 </div>
                             </div>
                             <div class="form-group">
@@ -117,7 +117,7 @@
     <script src="${ctx!}/assets/js/plugins/layer/laydate/laydate.js"></script>
     <script type="text/javascript">
     $(document).ready(function () {
-	  	
+
 	    $("#frm").validate({
     	    rules: {
     	    	name: {
@@ -160,7 +160,7 @@
     	    	$.ajax({
    	    		   type: "POST",
    	    		   dataType: "json",
-   	    		   url: "${ctx!}/admin/resource/edit",
+   	    		   url: "${ctx!}/admin/resource/editnewinput",
    	    		   data: $(form).serialize(),
    	    		   success: function(msg){
 	   	    			layer.msg(msg.message, {time: 2000},function(){

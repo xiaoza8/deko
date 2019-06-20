@@ -67,9 +67,9 @@
                             </div>
 
                             <div class="form-group">
-                                <label class="col-sm-3 control-label">数量：</label>
+                                <label class="col-sm-3 control-label">本次出库数量：</label>
                                 <div class="col-sm-8">
-                                    <input id="num" name="num" class="form-control" value="${addedResource.num}" placeholder="目录：1，菜单：2，按钮：3">
+                                    <input id="num" name="num" class="form-control" value="${addedResource.num}" placeholder="填入数字">
                                 </div>
                             </div>
 
@@ -78,8 +78,8 @@
                                 <label class="col-sm-3 control-label">状态：</label>
                                 <div class="col-sm-8">
                                 	<select name="isHide" class="form-control">
-                                		<option value="0" <#if resource.locked == 0>selected="selected"</#if>>显示</option>
-                                		<option value="1" <#if resource.locked == 1>selected="selected"</#if>>隐藏</option>
+                                		<option value="0" <#if resource.locked == 0>selected="selected"</#if>>待审核</option>
+                                		<option value="1" <#if resource.locked == 1>selected="selected"</#if>>已批准</option>
                                 	</select>
                                 </div>
                             </div>

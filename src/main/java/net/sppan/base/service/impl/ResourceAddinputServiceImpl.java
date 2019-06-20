@@ -2,12 +2,15 @@ package net.sppan.base.service.impl;
 
 import net.sppan.base.common.Constats;
 import net.sppan.base.dao.IResourceAddDao;
+import net.sppan.base.dao.IResourceAddinputDao;
 import net.sppan.base.dao.IResourceDao;
 import net.sppan.base.dao.support.IBaseDao;
 import net.sppan.base.entity.AddedResource;
+import net.sppan.base.entity.AddedinputResource;
 import net.sppan.base.entity.Resource;
 import net.sppan.base.entity.Role;
 import net.sppan.base.service.IResourceAddService;
+import net.sppan.base.service.IResourceAddinputService;
 import net.sppan.base.service.IResourceService;
 import net.sppan.base.service.IRoleService;
 import net.sppan.base.service.support.impl.BaseServiceImpl;
@@ -33,11 +36,11 @@ import java.util.Set;
 
  */
 @Service
-public class ResourceAddinputServiceImpl extends BaseServiceImpl<AddedResource, Integer>
-		implements IResourceAddService {
+public class ResourceAddinputServiceImpl extends BaseServiceImpl<AddedinputResource, Integer>
+		implements IResourceAddinputService {
 	//新增的库存dao
 	@Autowired
-	private IResourceAddDao resourceAddDao;
+	private IResourceAddinputDao resourceAddinputDao;
 
 	//总库表
 	@Autowired
@@ -50,8 +53,8 @@ public class ResourceAddinputServiceImpl extends BaseServiceImpl<AddedResource, 
 	private IRoleService roleService;
 
 	@Override
-	public IBaseDao<AddedResource, Integer> getBaseDao() {
-		return this.resourceAddDao;
+	public IBaseDao<AddedinputResource, Integer> getBaseDao() {
+		return this.resourceAddinputDao;
 	}
 
 	@Override
@@ -63,8 +66,8 @@ public class ResourceAddinputServiceImpl extends BaseServiceImpl<AddedResource, 
 		resulTreeNodes.add(new ZtreeView(0L, null, "系统菜单", true));
 		ZtreeView node;
 		//List<Resource> all = resourceDao.findAllByOrderByParentAscIdAscSortAsc();
-		List<AddedResource> all = resourceAddDao.findAllByOrderByIdAsc();
-		for (AddedResource resource : all) {
+		List<AddedinputResource> all = resourceAddinputDao.findAllByOrderByIdAsc();
+		for (AddedinputResource resource : all) {
 			node = new ZtreeView();
 			node.setId(Long.valueOf(resource.getId()));
 		//	if (resource.getParent() == null) {
@@ -83,7 +86,7 @@ public class ResourceAddinputServiceImpl extends BaseServiceImpl<AddedResource, 
 
 	@Override
 	@Transactional
-	public void saveOrUpdate(AddedResource resource) {
+	public void saveOrUpdate(AddedinputResource resource) {
 
 
 		Resource resourcetotal = resourceDao.findByName(resource.getName()).get(0);
@@ -119,16 +122,16 @@ public class ResourceAddinputServiceImpl extends BaseServiceImpl<AddedResource, 
 
 	@Override
 	public void delete(Integer id) {
-		resourceAddDao.deleteGrant(id);
+		resourceAddinputDao.deleteGrant(id);
 		super.delete(id);
 	}
 
 	@Override
-	public Page<AddedResource> findAllByLike(String searchText, PageRequest pageRequest) {
+	public Page<AddedinputResource> findAllByLike(String searchText, PageRequest pageRequest) {
 		if(StringUtils.isBlank(searchText)){
 			searchText = "";
 		}
-		return resourceAddDao.findAllByNameContaining(searchText, pageRequest);
+		return resourceAddinputDao.findAllByNameContaining(searchText, pageRequest);
 	}
 
 

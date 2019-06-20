@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8899bde-269c-44e6-9817-db9c6da0a47b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/sppan/base/dao/IResourceAddinputDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/sppan/base/entity/AddedinputResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/sppan/base/service/IResourceAddinputService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/sppan/base/service/impl/ResourceAddinputServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/app/base.2019-06-20.log" beforeDir="false" afterPath="$PROJECT_DIR$/base/app/base.2019-06-20.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/service/IResourceAddinputService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/sppan/base/service/IResourceAddinputService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/service/impl/ResourceAddServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/sppan/base/service/impl/ResourceAddServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/resource/input.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/resource/input.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/resource/inputadd.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/resource/inputadd.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/resource/inputform.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/resource/output.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/resource/output.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/resource/outputform.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/resource/outputform.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/service/impl/ResourceAddinputServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/sppan/base/service/impl/ResourceAddinputServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/service/impl/ResourceAddServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="93" column="34" lean-forward="true" selection-start-line="93" selection-start-column="34" selection-end-line="93" selection-end-column="34" />
+            <state relative-caret-position="235">
+              <caret line="97" column="10" lean-forward="true" selection-start-line="97" selection-start-column="10" selection-end-line="97" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,20 +41,31 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/service/IResourceAddinputService.java">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/service/impl/ResourceAddinputServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="39" column="43" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/entity/AddedinputResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-475">
+            <state relative-caret-position="-19">
               <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
               <folding>
                 <element signature="e#611#612#0" expanded="true" />
@@ -113,20 +115,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/dao/IResourceAddinputDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+            <state relative-caret-position="209">
+              <caret line="21" column="57" lean-forward="true" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/resource/output.ftl">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/dao/IResourceAddDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="73" lean-forward="true" selection-end-line="220" />
+            <state relative-caret-position="408">
+              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -190,15 +195,15 @@
         <option value="$PROJECT_DIR$/src/main/java/net/sppan/base/dao/IResourceDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/admin/resource/form.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/admin/resource/inputadd.ftl" />
-        <option value="$PROJECT_DIR$/src/main/java/net/sppan/base/service/impl/ResourceAddServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/admin/resource/output.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/admin/resource/outputform.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/admin/resource/input.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/admin/resource/inputform.ftl" />
-        <option value="$PROJECT_DIR$/src/main/java/net/sppan/base/service/IResourceAddinputService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/sppan/base/service/impl/ResourceAddinputServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/sppan/base/entity/AddedinputResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/sppan/base/dao/IResourceAddinputDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/sppan/base/service/impl/ResourceAddServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/sppan/base/service/impl/ResourceAddinputServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/sppan/base/service/IResourceAddinputService.java" />
       </list>
     </option>
   </component>
@@ -363,7 +368,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561039101518" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561041324128" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
@@ -448,14 +453,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.20248668" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3711048" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44475922" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.10834814" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.44192636" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.44192636" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -692,16 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/dao/IResourceAddDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/controller/admin/system/RoleController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -850,16 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/service/impl/ResourceAddServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="93" column="34" lean-forward="true" selection-start-line="93" selection-start-column="34" selection-end-line="93" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/controller/admin/system/ResourceController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -867,15 +852,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/service/IResourceAddinputService.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/dao/IResourceAddinputDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="21" column="57" lean-forward="true" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/service/impl/ResourceAddinputServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/dao/IResourceAddDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/entity/AddedinputResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-475">
+        <state relative-caret-position="-19">
           <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
           <folding>
             <element signature="e#611#612#0" expanded="true" />
@@ -924,10 +920,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/dao/IResourceAddinputDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/service/impl/ResourceAddServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+        <state relative-caret-position="235">
+          <caret line="97" column="10" lean-forward="true" selection-start-line="97" selection-start-column="10" selection-end-line="97" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/service/impl/ResourceAddinputServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="39" column="43" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/service/IResourceAddinputService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>

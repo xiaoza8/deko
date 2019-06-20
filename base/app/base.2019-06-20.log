@@ -2574,3 +2574,32 @@ Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown co
 2019-06-20 21:36:24.452 [http-nio-80-exec-10] DEBUG org.hibernate.SQL - select count(addedresou0_.id) as col_0_0_ from tb_resource_add addedresou0_ where addedresou0_.name like ?
 2019-06-20 21:36:31.922 [http-nio-80-exec-3] DEBUG org.hibernate.SQL - select addedresou0_.id as id1_1_, addedresou0_.create_time as create_t2_1_, addedresou0_.description as descript3_1_, addedresou0_.is_hide as is_hide4_1_, addedresou0_.name as name5_1_, addedresou0_.num as num6_1_, addedresou0_.price as price7_1_, addedresou0_.source_key as source_k8_1_, addedresou0_.type as type9_1_, addedresou0_.update_time as update_10_1_ from tb_resource_add addedresou0_ where addedresou0_.name like ? limit ?, ?
 2019-06-20 21:54:38.755 [Thread-11] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-06-20 22:26:57.910 [restartedMain] INFO  net.sppan.base.Application - Starting Application on LAPTOP-PD3U3D75 with PID 9184 (D:\ff\new\deko\target\classes started by lmq in D:\ff\new\deko)
+2019-06-20 22:26:57.913 [restartedMain] DEBUG net.sppan.base.Application - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2019-06-20 22:26:57.913 [restartedMain] INFO  net.sppan.base.Application - No active profile set, falling back to default profiles: default
+2019-06-20 22:26:58.374 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2019-06-20 22:27:01.285 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-06-20 22:27:04.479 [restartedMain] DEBUG org.hibernate.SQL - select resource0_.id as id1_0_, resource0_.create_time as create_t2_0_, resource0_.description as descript3_0_, resource0_.is_hide as is_hide4_0_, resource0_.name as name5_0_, resource0_.num as num6_0_, resource0_.price as price7_0_, resource0_.source_key as source_k8_0_, resource0_.type as type9_0_, resource0_.update_time as update_10_0_ from tb_resource resource0_
+2019-06-20 22:27:05.283 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-06-20 22:27:05.285 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.11
+2019-06-20 22:27:05.643 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-20 22:27:07.941 [restartedMain] WARN  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'resourceController': Unsatisfied dependency expressed through field 'resourceAddService'; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'net.sppan.base.service.IResourceAddService' available: expected single matching bean but found 2: resourceAddinputServiceImpl,resourceAddServiceImpl
+2019-06-20 22:27:07.950 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-06-20 22:27:07.953 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service Tomcat
+2019-06-20 22:27:08.001 [restartedMain] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field resourceAddService in net.sppan.base.controller.admin.system.ResourceController required a single bean, but 2 were found:
+	- resourceAddinputServiceImpl: defined in file [D:\ff\new\deko\target\classes\net\sppan\base\service\impl\ResourceAddinputServiceImpl.class]
+	- resourceAddServiceImpl: defined in file [D:\ff\new\deko\target\classes\net\sppan\base\service\impl\ResourceAddServiceImpl.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+

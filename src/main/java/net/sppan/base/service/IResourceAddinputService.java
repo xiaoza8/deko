@@ -1,6 +1,7 @@
 package net.sppan.base.service;
 
 import net.sppan.base.entity.AddedResource;
+import net.sppan.base.entity.AddedinputResource;
 import net.sppan.base.service.support.IBaseService;
 import net.sppan.base.vo.ZtreeView;
 import org.springframework.data.domain.Page;
@@ -14,7 +15,7 @@ import java.util.List;
  * </p>
 
  */
-public interface IResourceAddinputService extends IBaseService<AddedResource, Integer> {
+public interface IResourceAddinputService extends IBaseService<AddedinputResource, Integer> {
 
 	/**
 	 * 获取角色的权限树
@@ -27,7 +28,7 @@ public interface IResourceAddinputService extends IBaseService<AddedResource, In
 	 * 修改或者新增资源
 	 * @param resource
 	 */
-	void saveOrUpdate(AddedResource resource);
+	void saveOrUpdate(AddedinputResource resource);
 
 	/**
 	 * 关键字分页
@@ -35,7 +36,7 @@ public interface IResourceAddinputService extends IBaseService<AddedResource, In
 	 * @param pageRequest
 	 * @return
 	 */
-	Page<AddedResource> findAllByLike(String searchText, PageRequest pageRequest);
+	Page<AddedinputResource> findAllByLike(String searchText, PageRequest pageRequest);
 
 
 }

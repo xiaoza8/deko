@@ -89,7 +89,7 @@ public class ResourceAddServiceImpl extends BaseServiceImpl<AddedResource, Integ
 		Resource resourcetotal = resourceDao.findByName(resource.getName()).get(0);
 		//新增数量
 
-		int num = resource.getNum() + resourcetotal.getNum();
+		int num =  +resourcetotal.getNum()-resource.getNum();
 
 		resourcetotal.setNum(num);
 		resourceService.saveOrUpdate(resourcetotal);
