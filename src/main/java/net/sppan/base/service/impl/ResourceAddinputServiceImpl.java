@@ -33,7 +33,7 @@ import java.util.Set;
 
  */
 @Service
-public class ResourceAddServiceImpl extends BaseServiceImpl<AddedResource, Integer>
+public class ResourceAddinputServiceImpl extends BaseServiceImpl<AddedResource, Integer>
 		implements IResourceAddService {
 	//新增的库存dao
 	@Autowired

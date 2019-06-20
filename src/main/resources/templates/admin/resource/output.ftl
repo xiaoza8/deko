@@ -119,9 +119,6 @@
 			        title: "库存名称",
 			        field: "name"
 			    },{
-			        title: "资源KEY",
-			        field: "sourceKey"
-			    },{
 			        title: "类型",
 			        field: "type",
 			        formatter: function(value,row,index){
@@ -133,7 +130,7 @@
                     		return '<span class="label label-warning">中药品</span>';
 			        }
 			    },{
-			        title: "数量",
+			        title: "本次出库数量",
 			        field: "num",
 			        sortable: true
 			    },{
