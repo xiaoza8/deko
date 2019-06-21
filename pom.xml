@@ -142,7 +142,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<mainClass>net.sppan.base.Application</mainClass>
+					<mainClass>com.hxkc.Application</mainClass>
 					<fork>true</fork>
 				</configuration>
 			</plugin>

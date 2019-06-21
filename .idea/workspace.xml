@@ -2,10 +2,133 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8899bde-269c-44e6-9817-db9c6da0a47b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/base/app/base.2019-06-20.log" beforeDir="false" afterPath="$PROJECT_DIR$/base/app/base.2019-06-20.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/service/IResourceAddinputService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/sppan/base/service/IResourceAddinputService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/service/impl/ResourceAddServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/sppan/base/service/impl/ResourceAddServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/service/impl/ResourceAddinputServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/sppan/base/service/impl/ResourceAddinputServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoKuCun.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demoKuCun.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/common/Constats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/common/Constats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/common/DateEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/common/DateEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/common/JsonResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/common/JsonResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/common/utils/AESUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/common/utils/AESUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/common/utils/MD5Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/common/utils/MD5Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/config/CacheConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/config/CacheConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/config/FreeMarkerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/config/FreeMarkerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/config/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/config/intercepter/CommonIntercepter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/config/intercepter/CommonIntercepter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/config/shiro/MyRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/config/shiro/MyRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/config/shiro/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/config/shiro/ShiroConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/config/shiro/ShiroManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/config/shiro/ShiroManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/config/shiro/freemarker/AuthenticatedTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/config/shiro/freemarker/AuthenticatedTag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/config/shiro/freemarker/GuestTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/config/shiro/freemarker/GuestTag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/config/shiro/freemarker/HasAnyRolesTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/config/shiro/freemarker/HasAnyRolesTag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/config/shiro/freemarker/HasPermissionTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/config/shiro/freemarker/HasPermissionTag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/config/shiro/freemarker/HasRoleTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/config/shiro/freemarker/HasRoleTag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/config/shiro/freemarker/LacksPermissionTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/config/shiro/freemarker/LacksPermissionTag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/config/shiro/freemarker/LacksRoleTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/config/shiro/freemarker/LacksRoleTag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/config/shiro/freemarker/NotAuthenticatedTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/config/shiro/freemarker/NotAuthenticatedTag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/config/shiro/freemarker/PermissionTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/config/shiro/freemarker/PermissionTag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/config/shiro/freemarker/PrincipalTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/config/shiro/freemarker/PrincipalTag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/config/shiro/freemarker/RoleTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/config/shiro/freemarker/RoleTag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/config/shiro/freemarker/SecureTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/config/shiro/freemarker/SecureTag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/config/shiro/freemarker/ShiroTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/config/shiro/freemarker/ShiroTags.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/config/shiro/freemarker/UserTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/config/shiro/freemarker/UserTag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/controller/BaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/controller/admin/AdminIndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/controller/admin/AdminIndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/controller/admin/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/controller/admin/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/controller/admin/system/ResourceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/controller/admin/system/ResourceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/controller/admin/system/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/controller/admin/system/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/controller/admin/system/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/controller/admin/system/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/controller/web/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/controller/web/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/dao/IResourceAddDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/dao/IResourceAddDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/dao/IResourceAddinputDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/dao/IResourceAddinputDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/dao/IResourceDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/dao/IResourceDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/dao/IRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/dao/IRoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/dao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/dao/support/IBaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/dao/support/IBaseDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/entity/AddedResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/entity/AddedResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/entity/AddedinputResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/entity/AddedinputResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/entity/Resource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/entity/Resource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/entity/support/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/entity/support/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/service/IResourceAddService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/service/IResourceAddService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/service/IResourceAddinputService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/service/IResourceAddinputService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/service/IResourceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/service/IResourceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/service/IRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/service/IRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/service/impl/ResourceAddServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/service/impl/ResourceAddServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/service/impl/ResourceAddinputServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/service/impl/ResourceAddinputServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/service/impl/ResourceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/service/impl/ResourceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/service/support/IBaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/service/support/IBaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/service/support/impl/BaseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/service/support/impl/BaseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sppan/base/vo/ZtreeView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hxkc/vo/ZtreeView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/index.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/resource/input.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/resource/input.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/resource/inputform.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/resource/inputform.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/common/Constats.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/common/DateEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/common/JsonResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/common/utils/AESUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/common/utils/MD5Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/config/CacheConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/config/FreeMarkerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/config/WebMvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/config/intercepter/CommonIntercepter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/config/shiro/MyRealm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/config/shiro/ShiroConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/config/shiro/ShiroManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/config/shiro/freemarker/AuthenticatedTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/config/shiro/freemarker/GuestTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/config/shiro/freemarker/HasAnyRolesTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/config/shiro/freemarker/HasPermissionTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/config/shiro/freemarker/HasRoleTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/config/shiro/freemarker/LacksPermissionTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/config/shiro/freemarker/LacksRoleTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/config/shiro/freemarker/NotAuthenticatedTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/config/shiro/freemarker/PermissionTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/config/shiro/freemarker/PrincipalTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/config/shiro/freemarker/RoleTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/config/shiro/freemarker/SecureTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/config/shiro/freemarker/ShiroTags.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/config/shiro/freemarker/UserTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/controller/BaseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/controller/admin/AdminIndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/controller/admin/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/controller/admin/system/ResourceController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/controller/admin/system/RoleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/controller/admin/system/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/controller/web/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/dao/IResourceAddDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/dao/IResourceAddinputDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/dao/IResourceDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/dao/IRoleDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/dao/IUserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/dao/support/IBaseDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/entity/AddedResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/entity/AddedinputResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/entity/Resource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/entity/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/entity/support/BaseEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/service/IResourceAddService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/service/IResourceAddinputService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/service/IResourceService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/service/IRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/service/IUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/service/impl/ResourceAddServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/service/impl/ResourceServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/service/impl/RoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/service/support/IBaseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/service/support/impl/BaseServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/sppan/base/vo/ZtreeView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/index.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/resource/input.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/resource/input.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/resource/inputform.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/resource/inputform.ftl" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,132 +138,36 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/service/impl/ResourceAddServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="97" column="10" lean-forward="true" selection-start-line="97" selection-start-column="10" selection-end-line="97" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/controller/admin/system/ResourceController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="89" column="32" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/service/IResourceAddinputService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/service/impl/ResourceAddinputServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="39" column="43" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/entity/AddedinputResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-19">
-              <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-              <folding>
-                <element signature="e#611#612#0" expanded="true" />
-                <element signature="e#636#637#0" expanded="true" />
-                <element signature="e#713#714#0" expanded="true" />
-                <element signature="e#736#737#0" expanded="true" />
-                <element signature="e#783#784#0" expanded="true" />
-                <element signature="e#816#817#0" expanded="true" />
-                <element signature="e#1172#1173#0" expanded="true" />
-                <element signature="e#1189#1190#0" expanded="true" />
-                <element signature="e#1225#1226#0" expanded="true" />
-                <element signature="e#1246#1247#0" expanded="true" />
-                <element signature="e#1365#1366#0" expanded="true" />
-                <element signature="e#1381#1382#0" expanded="true" />
-                <element signature="e#1415#1416#0" expanded="true" />
-                <element signature="e#1434#1435#0" expanded="true" />
-                <element signature="e#1462#1463#0" expanded="true" />
-                <element signature="e#1480#1481#0" expanded="true" />
-                <element signature="e#1517#1518#0" expanded="true" />
-                <element signature="e#1540#1541#0" expanded="true" />
-                <element signature="e#1568#1569#0" expanded="true" />
-                <element signature="e#1587#1588#0" expanded="true" />
-                <element signature="e#1625#1626#0" expanded="true" />
-                <element signature="e#1650#1651#0" expanded="true" />
-                <element signature="e#1679#1680#0" expanded="true" />
-                <element signature="e#1697#1698#0" expanded="true" />
-                <element signature="e#1735#1736#0" expanded="true" />
-                <element signature="e#1758#1759#0" expanded="true" />
-                <element signature="e#1791#1792#0" expanded="true" />
-                <element signature="e#1811#1812#0" expanded="true" />
-                <element signature="e#1853#1854#0" expanded="true" />
-                <element signature="e#1880#1881#0" expanded="true" />
-                <element signature="e#1915#1916#0" expanded="true" />
-                <element signature="e#1940#1941#0" expanded="true" />
-                <element signature="e#1991#1992#0" expanded="true" />
-                <element signature="e#2028#2029#0" expanded="true" />
-                <element signature="e#2060#2061#0" expanded="true" />
-                <element signature="e#2084#2085#0" expanded="true" />
-                <element signature="e#2131#2132#0" expanded="true" />
-                <element signature="e#2166#2167#0" expanded="true" />
-                <element signature="e#2198#2199#0" expanded="true" />
-                <element signature="e#2222#2223#0" expanded="true" />
-                <element signature="e#2269#2270#0" expanded="true" />
-                <element signature="e#2304#2305#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/dao/IResourceAddinputDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="21" column="57" lean-forward="true" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/dao/IResourceAddDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/resource/input.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
+            <state relative-caret-position="269">
               <caret line="186" column="35" selection-start-line="186" selection-start-column="35" selection-end-line="186" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hxkc/controller/admin/system/ResourceController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="156" column="54" selection-start-line="156" selection-start-column="54" selection-end-line="156" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hxkc/entity/AddedinputResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -148,7 +175,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/resource/outputform.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
+            <state relative-caret-position="1037">
               <caret line="61" column="50" selection-end-line="179" />
             </state>
           </provider>
@@ -157,8 +184,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/resource/inputform.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2090">
-              <caret line="43" column="82" selection-start-line="43" selection-start-column="82" selection-end-line="43" selection-end-column="82" />
+            <state relative-caret-position="-119">
+              <caret line="92" column="70" selection-start-line="92" selection-start-column="70" selection-end-line="92" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hxkc/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hxkc/service/impl/ResourceAddServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hxkc/service/impl/ResourceAddinputServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1130">
+              <caret line="39" column="52" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hxkc/dao/IResourceAddinputDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/index.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="84" selection-start-line="84" selection-end-line="84" />
             </state>
           </provider>
         </entry>
@@ -184,7 +256,6 @@
         <option value="$PROJECT_DIR$/base.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/admin/resource/index.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/net/sppan/base/dao/IResourceAddDao.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/index.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/net/sppan/base/entity/AddedResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/sppan/base/entity/Resource.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/sppan/base/config/shiro/MyRealm.java" />
@@ -198,12 +269,16 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/admin/resource/output.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/admin/resource/outputform.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/admin/resource/input.ftl" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/resource/inputform.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/net/sppan/base/entity/AddedinputResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/sppan/base/dao/IResourceAddinputDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/sppan/base/service/impl/ResourceAddServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/sppan/base/service/impl/ResourceAddinputServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/sppan/base/service/IResourceAddinputService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/hxkc/base/controller/admin/system/ResourceController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hxkc/entity/AddedinputResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hxkc/controller/admin/system/ResourceController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/resource/inputform.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/index.ftl" />
       </list>
     </option>
   </component>
@@ -225,7 +300,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -257,74 +331,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPPanAdmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deko" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPPanAdmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deko" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPPanAdmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deko" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPPanAdmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deko" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPPanAdmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deko" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPPanAdmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deko" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPPanAdmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deko" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="hxkc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SPPanAdmin" type="b2602c69:ProjectViewProjectNode" />
@@ -364,10 +371,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561041324128" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -395,9 +404,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Application (1)">
+    <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hxkc.Application" />
+      <module name="demoKuCun" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hxkc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_131\jre" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_212\jre" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="net.sppan.base.Application" />
       <module name="demoKuCun" />
@@ -411,8 +433,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Application" />
+      <item itemvalue="Application.Application (1)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application (1)" />
         <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
@@ -440,10 +467,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2546917" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31821862" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -452,15 +479,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20248668" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.44475922" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20248668" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.053285968" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.10834814" />
-      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.44192636" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.44192636" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -511,79 +538,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/role/grant.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/role/index.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1482">
-          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/service/support/impl/BaseServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1096">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/config/shiro/ShiroConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="62" column="48" lean-forward="true" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/entity/support/BaseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/service/IUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/service/IRoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/entity/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/config/CacheConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/service/IRoleService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/entity/Role.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/entity/User.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/config/CacheConfig.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/ehcache.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -591,37 +549,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/dao/IUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/service/impl/RoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/controller/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/config/intercepter/CommonIntercepter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/dao/IUserDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/service/impl/RoleServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/controller/BaseController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/config/intercepter/CommonIntercepter.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -636,125 +567,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/controller/web/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.4/shiro-core-1.2.4.jar!/org/apache/shiro/realm/AuthorizingRealm.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="203" selection-start-line="203" selection-end-line="203" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/config/shiro/ShiroManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-246">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/entity/Resource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="122" column="28" lean-forward="true" selection-start-line="122" selection-start-column="28" selection-end-line="122" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1033#1034#0" expanded="true" />
-            <element signature="e#1058#1059#0" expanded="true" />
-            <element signature="e#1091#1092#0" expanded="true" />
-            <element signature="e#1114#1115#0" expanded="true" />
-            <element signature="e#1161#1162#0" expanded="true" />
-            <element signature="e#1194#1195#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/config/shiro/MyRealm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="56" column="58" lean-forward="true" selection-start-line="56" selection-start-column="58" selection-end-line="56" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/service/impl/ResourceServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/service/IResourceService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/controller/admin/system/RoleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/vo/ZtreeView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-487">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/service/IResourceAddService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/dao/support/IBaseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/dao/IResourceDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/controller/admin/AdminIndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/controller/admin/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/controller/web/IndexController.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.4/shiro-core-1.2.4.jar!/org/apache/shiro/realm/AuthorizingRealm.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/config/shiro/ShiroManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/entity/Resource.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/config/shiro/MyRealm.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/service/impl/ResourceServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/service/IResourceService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/controller/admin/system/RoleController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/vo/ZtreeView.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/service/IResourceAddService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/dao/support/IBaseDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/dao/IResourceDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/controller/admin/AdminIndexController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/controller/admin/LoginController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/role/form.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="55">
@@ -782,34 +608,8 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/welcome.ftl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/index.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1482">
-          <caret line="78" column="52" selection-start-line="78" selection-start-column="52" selection-end-line="78" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="88" selection-start-line="15" selection-start-column="88" selection-end-line="15" selection-end-column="88" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/entity/AddedResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
-          <folding>
-            <element signature="e#606#607#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/Application.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/entity/AddedResource.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/resource/index.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -824,126 +624,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/controller/admin/system/ResourceController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/dao/IResourceAddinputDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/dao/IResourceAddDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/entity/AddedinputResource.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/service/impl/ResourceAddServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/service/impl/ResourceAddinputServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/service/IResourceAddinputService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/resource/outputform.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
+        <state relative-caret-position="1037">
           <caret line="61" column="50" selection-end-line="179" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/resource/inputform.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2090">
-          <caret line="43" column="82" selection-start-line="43" selection-start-column="82" selection-end-line="43" selection-end-column="82" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/resource/input.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="269">
           <caret line="186" column="35" selection-start-line="186" selection-start-column="35" selection-end-line="186" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/controller/admin/system/ResourceController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hxkc/controller/admin/system/ResourceController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="89" column="32" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/dao/IResourceAddinputDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="21" column="57" lean-forward="true" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/dao/IResourceAddDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        <state relative-caret-position="396">
+          <caret line="156" column="54" selection-start-line="156" selection-start-column="54" selection-end-line="156" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/entity/AddedinputResource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/resource/inputform.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-          <folding>
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-            <element signature="e#1172#1173#0" expanded="true" />
-            <element signature="e#1189#1190#0" expanded="true" />
-            <element signature="e#1225#1226#0" expanded="true" />
-            <element signature="e#1246#1247#0" expanded="true" />
-            <element signature="e#1365#1366#0" expanded="true" />
-            <element signature="e#1381#1382#0" expanded="true" />
-            <element signature="e#1415#1416#0" expanded="true" />
-            <element signature="e#1434#1435#0" expanded="true" />
-            <element signature="e#1462#1463#0" expanded="true" />
-            <element signature="e#1480#1481#0" expanded="true" />
-            <element signature="e#1517#1518#0" expanded="true" />
-            <element signature="e#1540#1541#0" expanded="true" />
-            <element signature="e#1568#1569#0" expanded="true" />
-            <element signature="e#1587#1588#0" expanded="true" />
-            <element signature="e#1625#1626#0" expanded="true" />
-            <element signature="e#1650#1651#0" expanded="true" />
-            <element signature="e#1679#1680#0" expanded="true" />
-            <element signature="e#1697#1698#0" expanded="true" />
-            <element signature="e#1735#1736#0" expanded="true" />
-            <element signature="e#1758#1759#0" expanded="true" />
-            <element signature="e#1791#1792#0" expanded="true" />
-            <element signature="e#1811#1812#0" expanded="true" />
-            <element signature="e#1853#1854#0" expanded="true" />
-            <element signature="e#1880#1881#0" expanded="true" />
-            <element signature="e#1915#1916#0" expanded="true" />
-            <element signature="e#1940#1941#0" expanded="true" />
-            <element signature="e#1991#1992#0" expanded="true" />
-            <element signature="e#2028#2029#0" expanded="true" />
-            <element signature="e#2060#2061#0" expanded="true" />
-            <element signature="e#2084#2085#0" expanded="true" />
-            <element signature="e#2131#2132#0" expanded="true" />
-            <element signature="e#2166#2167#0" expanded="true" />
-            <element signature="e#2198#2199#0" expanded="true" />
-            <element signature="e#2222#2223#0" expanded="true" />
-            <element signature="e#2269#2270#0" expanded="true" />
-            <element signature="e#2304#2305#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-119">
+          <caret line="92" column="70" selection-start-line="92" selection-start-column="70" selection-end-line="92" selection-end-column="70" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/service/impl/ResourceAddServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hxkc/service/impl/ResourceAddServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="97" column="10" lean-forward="true" selection-start-line="97" selection-start-column="10" selection-end-line="97" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="179">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/service/impl/ResourceAddinputServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hxkc/service/impl/ResourceAddinputServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="39" column="43" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-1130">
+          <caret line="39" column="52" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sppan/base/service/IResourceAddinputService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hxkc/dao/IResourceAddinputDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="255">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/index.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hxkc/entity/AddedinputResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hxkc/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>

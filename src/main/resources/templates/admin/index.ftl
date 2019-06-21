@@ -72,13 +72,16 @@
                          </@shiro.hasPermission>
                          <@shiro.hasPermission name="system:resource:index">
                             <li>
-                                <a class="J_menuItem" href="${ctx!}/admin/resource/index">资源管理</a>
+                                <a class="J_menuItem" href="${ctx!}/admin/resource/index">库存列表管理</a>
                             </li>
                          </@shiro.hasPermission>
 
-                                                     <li>
-                                                         <a class="J_menuItem" href="${ctx!}/admin/resource/output">出库管理</a>
-                                                     </li>
+                                    <li>
+                                     <a class="J_menuItem" href="${ctx!}/admin/resource/output">出库管理</a>
+                                      </li>
+                                    <li>
+                                    <a class="J_menuItem" href="${ctx!}/admin/resource/input">入库管理</a>
+                                      </li>
 
 
                         </ul>

@@ -41,22 +41,22 @@
                     </div>
                     <div class="ibox-content">
                         <form class="form-horizontal m-t" id="frm" method="post" action="${ctx!}/admin/resource/editnewinput">
-                        	<input type="hidden" id="id" name="id" value="${addedResource.id}">
+                        	<input type="hidden" id="id" name="id" value="${addedinputResource.id}">
 
                             <div class="form-group">
                                 <label class="col-sm-3 control-label">库存名称：</label>
                                 <div class="col-sm-8">
-                                    <input id="name" name="name" class="form-control" type="text" value="${addedResource.name}">
+                                    <input id="name" name="name" class="form-control" type="text" value="${addedinputResource.name}">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-sm-3 control-label">单价：</label>
                                 <div class="col-sm-8">
-                                    <input id="price" name="price" class="form-control" type="text" value="${addedResource.price}">
+                                    <input id="price" name="price" class="form-control" type="text" value="${addedinputResource.price}">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label class="col-sm-3 control-label">资源类型：</label>
+                                <label class="col-sm-3 control-label">库存类型：</label>
                                 <div class="col-sm-8">
                                 	<select name="type" class="form-control">
                                 		<option value="0" <#if resource.type == 0>selected="selected"</#if>>西药品</option>
@@ -67,9 +67,9 @@
                             </div>
 
                             <div class="form-group">
-                                <label class="col-sm-3 control-label">本次出库数量：</label>
+                                <label class="col-sm-3 control-label">本次入库数量：</label>
                                 <div class="col-sm-8">
-                                    <input id="num" name="num" class="form-control" value="${addedResource.num}" placeholder="填入数字">
+                                    <input id="num" name="num" class="form-control" value="${addedinputResource.num}" placeholder="填入数字">
                                 </div>
                             </div>
 
@@ -86,7 +86,7 @@
                             <div class="form-group">
                                 <label class="col-sm-3 control-label">描述：</label>
                                 <div class="col-sm-8">
-                                    <input id="description" name="description" class="form-control" value="${addedResource.description}">
+                                    <input id="description" name="description" class="form-control" value="${addedinputResource.description}">
                                 </div>
                             </div>
                             <div class="form-group">
